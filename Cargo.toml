@@ -8,7 +8,7 @@ description = "A simple rust wrapper around crt.sh"
 repository = "https://github.com/sintemal/crt-sh.git"
 readme = "README.md"
 documentation = "https://docs.rs/crt-sh"
-keywords = ["crt-sh", "crtsh", "certificate", "certificate-transparency"]
+keywords = ["crt-sh", "crtsh", "certificate", "transparency"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
