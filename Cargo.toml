@@ -12,7 +12,7 @@ keywords = ["crt.sh", "crtsh", "certificate", "certificate transparency"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-table-extract = {git = "https://github.com/sintemal/table-extract.git"}
+table-extract = {git = "https://github.com/sintemal/table-extract.git", version = "0.2.0"}
 chrono = "0.4.19"
 reqwest = "0.11.9"
 scraper = "0.11"
