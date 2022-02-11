@@ -44,8 +44,6 @@ pub async fn get_entries<T: AsRef<str>>(domain: T) -> Result<Vec<CrtShEntry>> {
         .text()
         .await?;
 
-    println!("{}", html);
-
     let table = Table::find_by_headers(&html, &["Common Name"]).ok_or(CrtShError::TableNotFound)?;
     let mut certificates = Vec::new();
     let not_after_header = format!(
