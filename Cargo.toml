@@ -1,6 +1,6 @@
 [package]
 name = "crt-sh"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["sintemal"]
 license = "Apache-2.0"
