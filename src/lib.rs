@@ -2,6 +2,8 @@ use chrono::NaiveDate;
 use scraper::{Html, Selector};
 use table_extract::Table;
 
+mod table_extract;
+
 type Result<T> = std::result::Result<T, CrtShError>;
 
 #[derive(Debug, PartialEq, Eq)]
